@@ -1,3 +1,4 @@
+import { Carousel } from 'react-bootstrap';
 import logo from './aglet_logo.svg';
 import './App.css';
 
@@ -8,7 +9,9 @@ function App() {
     //   <h1>Hello</h1>
     //   <ImageSlider slides={slides}/>
     // </div>
-    <div>Hello</div>
+    <div>
+      <Carousel/>
+    </div>
   );
 }
 
