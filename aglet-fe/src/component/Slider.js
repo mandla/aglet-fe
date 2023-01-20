@@ -19,7 +19,7 @@ export default function Slider({
                 onMouseLeave={() => handle_hover_end()}
                 onTouchStart={() => set_on_hover()}
                 onTouchEnd={() => handle_hover_end()}
-                videoSrc={x.video}
+                videoSrc={x.vid}
                 pausedOverlay={
                     <div>
                         <div
@@ -29,7 +29,7 @@ export default function Slider({
                                 }`}
                         ></div>
                         <img
-                            src={x.image}
+                            src={x.img}
                             alt=""
                             style={{
                                 width: "100%",
