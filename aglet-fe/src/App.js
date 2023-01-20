@@ -1,14 +1,14 @@
-import { Carousel } from 'react-bootstrap';
-import Slider from './components/carousel/Slider';
-import logo from './aglet_logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Routes } from "react-router-dom";
+import Menu from "./component/Menu";
+import AppRoutes from "./routes";
 
 function App() {
-  
   return (
-    <div>
-      <Slider/>
-    </div>
+    <Routes>
+      <Menu />
+      <AppRoutes />
+    </Routes>
   );
 }
 
